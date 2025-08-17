@@ -2,55 +2,78 @@
 
 **Last Updated: August 17, 2025**
 
-NextNote (“the App”, “we”, “our”, or “us”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data.
+NextNote (“the App”, “we”, “our”, or “us”) respects your privacy and is committed to protecting your personal data. This Privacy Policy explains what information we collect, how we use it, how we protect it, and your rights.
 
 ---
 
 ## 1. Information We Collect
+When you use NextNote, we may collect the following types of information:
 
-- **Camera Access**: Used solely to take photos that you choose to insert into your notes.  
-- **Microphone Access**: Used to record audio notes when you explicitly request it.  
-- **Local Storage**: Notes and related files may be stored locally on your device.  
-- **iCloud Storage**: If enabled, your notes can be synced across your devices through Apple’s iCloud service.  
-- **Internet Access**: Required for synchronization, backup, and providing core app functionality.
+- **Camera Access**: To allow you to capture photos for your notes.  
+- **Microphone Access**: To enable voice recording features.  
+- **Local Storage**: Notes and related files stored directly on your device.  
+- **iCloud Storage**: If enabled, notes are synced and backed up through Apple iCloud.  
+- **Internet Access**: Required for synchronization, backup, and connectivity with cloud services.  
 
----
-
-## 2. How We Use Your Information
-
-- To allow you to create, edit, and manage your notes.  
-- To store your notes securely on your device and, if enabled, in iCloud.  
-- To provide photo and audio note-taking features.  
-- To enable synchronization across devices through iCloud.  
-
-We do **not** use your personal data for advertising or marketing purposes.
+We do not collect sensitive personal identifiers (such as government IDs, financial information, or health data).
 
 ---
 
-## 3. Data Storage and Security
+## 2. How We Use Information
+We use the information we collect to:
+- Provide core note-taking functionality, including text, photo, and audio notes.  
+- Synchronize notes across devices using iCloud (if enabled).  
+- Store your notes securely on your device or in iCloud.  
+- Improve stability and reliability of the App.  
 
-- Your notes are stored securely either on your device or in iCloud (if you choose to enable cloud sync).  
-- We do not access or share your personal notes with third parties.  
-- We rely on Apple’s iCloud infrastructure for cloud storage security.
-
----
-
-## 4. Third-Party Services
-
-- **Apple iCloud**: If enabled, your notes will be stored and synchronized using iCloud. The use of iCloud is governed by Apple’s Privacy Policy.  
+We do **not** sell or share your personal information with advertisers.
 
 ---
 
-## 5. Your Rights
-
-- You may choose to disable iCloud synchronization at any time in your device settings.  
-- You may delete your notes from your device or iCloud at any time.  
-- If you uninstall the App, all local data stored on your device will be deleted.  
+## 3. How We Share Information
+- We do not sell, rent, or trade your personal data.  
+- Notes are private to you and are not shared with third parties, except when you choose to back up via iCloud.  
+- iCloud is provided by Apple, and the storage and transmission of data through iCloud is subject to [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/).
 
 ---
 
-## 6. Contact Us
+## 4. Data Storage and Security
+- Your notes are stored either locally on your device or securely in iCloud.  
+- We use industry-standard measures to protect your data from unauthorized access or loss.  
+- No method of transmission or storage is 100% secure; we encourage you to keep your device protected.
 
-If you have any questions about this Privacy Policy or your data, please contact us at:  
-📧 **support@nextnote.app**
+---
+
+## 5. Third-Party Services
+NextNote integrates with:
+- **Apple iCloud**: Used for cloud synchronization and backup.  
+
+These services are governed by their own privacy policies.
+
+---
+
+## 6. Your Rights
+Depending on your jurisdiction (e.g., GDPR, CCPA), you may have the following rights:
+- **Access and Portability**: Request a copy of your data.  
+- **Correction**: Update or correct inaccurate information.  
+- **Deletion**: Delete your notes and account data.  
+- **Withdraw Consent**: Disable iCloud sync or revoke app permissions at any time.  
+
+To exercise these rights, you may manage settings within your device or contact us directly.
+
+---
+
+## 7. Children’s Privacy
+NextNote is not directed to children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect data from children. If we become aware of such collection, we will promptly delete the data.
+
+---
+
+## 8. Changes to This Policy
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated “Last Updated” date.
+
+---
+
+## 9. Contact Us
+If you have questions about this Privacy Policy or your data, please contact us at:  
+📧 **865525900@qq.com**
 
