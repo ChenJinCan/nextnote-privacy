@@ -24,4 +24,4 @@ A: Please contact us via email: 865525900@qq.com
 ## Policies
 
 - [Privacy Policy](https://yourname.github.io/nextnote-site/privacy)  
-- [Terms of Use](https://yourname.github.io/nextnote-site/terms)  
+- [Terms of Use](https://yourname.github.io/nextnote-site/agreement)  
