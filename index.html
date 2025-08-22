@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>YOUR_APP_NAME — Fast, Simple, Powerful Notes</title>
-  <meta name="description" content="YOUR_APP_NAME helps you capture ideas fast, stay organized, and find everything instantly." />
+  <title>NextNote — Fast, Simple, Smart Note-Taking</title>
+  <meta name="description" content="NextNote helps you capture ideas instantly, stay organized, and write without distractions. Built for speed, simplicity, and privacy." />
 
-  <!-- iOS Smart App Banner -->
-  <meta name="apple-itunes-app" content="app-id=YOUR_APP_STORE_ID">
+  <!-- iOS Smart App Banner (replace with your real App Store ID) -->
+  <meta name="apple-itunes-app" content="app-id=0000000000">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="YOUR_APP_NAME — Fast, Simple, Powerful Notes">
-  <meta property="og:description" content="Capture faster. Organize smarter. Find instantly.">
+  <meta property="og:title" content="NextNote — Fast, Simple, Smart Note-Taking">
+  <meta property="og:description" content="Capture faster. Organize smarter. Write without distractions.">
   <meta property="og:image" content="https://yourdomain.com/og-image.png">
   <meta property="og:url" content="https://yourdomain.com/">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="YOUR_APP_NAME — Fast, Simple, Powerful Notes">
-  <meta name="twitter:description" content="Capture faster. Organize smarter. Find instantly.">
+  <meta name="twitter:title" content="NextNote — Fast, Simple, Smart Note-Taking">
+  <meta name="twitter:description" content="Capture faster. Organize smarter. Write without distractions.">
   <meta name="twitter:image" content="https://yourdomain.com/og-image.png">
 
   <!-- Favicon -->
@@ -33,7 +33,7 @@
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "YOUR_APP_NAME",
+    "name": "NextNote",
     "applicationCategory": "ProductivityApplication",
     "operatingSystem": "iOS",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -44,17 +44,19 @@
     :root { color-scheme: light dark; }
   </style>
 </head>
-<body class="bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+<body class="bg-neutral-950 text-neutral-100 dark:bg-neutral-950 dark:text-neutral-100">
+  <!-- Header -->
   <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
     <div class="flex items-center gap-3">
-      <img src="/icon.png" alt="YOUR_APP_NAME" class="w-8 h-8 rounded-xl">
-      <span class="font-semibold text-lg">YOUR_APP_NAME</span>
+      <img src="/icon.png" alt="NextNote" class="w-8 h-8 rounded-xl">
+      <span class="font-semibold text-lg">NextNote</span>
     </div>
     <nav class="hidden md:flex items-center gap-6 text-sm">
       <a href="#features" class="opacity-80 hover:opacity-100">Features</a>
       <a href="#pricing" class="opacity-80 hover:opacity-100">Pricing</a>
       <a href="#faq" class="opacity-80 hover:opacity-100">FAQ</a>
       <a href="/privacy" class="opacity-80 hover:opacity-100">Privacy</a>
+      <a href="/terms" class="opacity-80 hover:opacity-100">Terms</a>
     </nav>
   </header>
 
@@ -63,13 +65,13 @@
     <section class="max-w-6xl mx-auto px-6 pt-10 pb-16 grid md:grid-cols-2 gap-10 items-center">
       <div>
         <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-          Capture faster. Organize smarter. <span class="text-blue-600">Write effortlessly.</span>
+          Capture faster. Organize smarter. <span class="text-blue-600">Write without distractions.</span>
         </h1>
         <p class="mt-4 text-lg opacity-80">
-          YOUR_APP_NAME is a clean, powerful notes app with dynamic covers, AI suggestions, and lightning-fast search.
+          NextNote is a clean and powerful note-taking app with AI assistance, dynamic covers, and lightning-fast search.
         </p>
         <div class="mt-6 flex flex-wrap gap-3">
-          <a href="https://apps.apple.com/app/idYOUR_APP_STORE_ID"
+          <a href="https://apps.apple.com/app/id0000000000"
              class="inline-flex items-center rounded-xl px-4 py-3 bg-black text-white dark:bg-white dark:text-black font-medium">
              Download on the App Store
           </a>
@@ -80,41 +82,63 @@
         <p class="mt-3 text-sm opacity-70">iOS • iCloud Sync • Privacy-first</p>
       </div>
       <div class="rounded-2xl overflow-hidden shadow-2xl">
-        <img src="/screenshot-hero.png" alt="App screenshot" class="w-full h-auto">
+        <img src="/screenshot-hero.png" alt="NextNote app screenshot" class="w-full h-auto">
       </div>
     </section>
 
-    <!-- Features -->
+    <!-- Feature cards -->
     <section id="features" class="bg-neutral-50 dark:bg-neutral-900/40 py-14">
       <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-6">
         <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
           <h3 class="font-semibold text-lg">Dynamic Covers & Emoji</h3>
-          <p class="mt-2 opacity-80">Make your notes expressive with custom covers and emojis.</p>
+          <p class="mt-2 opacity-80">Make your notes expressive with custom covers and emojis that reflect your style.</p>
         </div>
         <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
-          <h3 class="font-semibold text-lg">Smart Editing</h3>
-          <p class="mt-2 opacity-80">AI suggestions to summarize, expand, and refine your writing.</p>
+          <h3 class="font-semibold text-lg">Smart Editing with AI</h3>
+          <p class="mt-2 opacity-80">Get instant suggestions to summarize, expand, and refine your writing.</p>
         </div>
         <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
           <h3 class="font-semibold text-lg">Blazing Search</h3>
-          <p class="mt-2 opacity-80">Find anything instantly with tags and full-text search.</p>
+          <p class="mt-2 opacity-80">Find anything instantly with tags, filters, and full‑text search.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">Multimedia Notes</h3>
+          <p class="mt-2 opacity-80">Add text, images, checklists, and voice memos—all in one place.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">iCloud Sync</h3>
+          <p class="mt-2 opacity-80">Your notes are backed up and available across your devices.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">Privacy First</h3>
+          <p class="mt-2 opacity-80">Your data stays safe, private, and under your control.</p>
         </div>
       </div>
     </section>
 
-    <!-- Pricing (可选) -->
+    <!-- Gallery (optional) -->
+    <section class="max-w-6xl mx-auto px-6 py-14">
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="/screenshot-1.png" alt="NextNote editor" class="rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
+        <img src="/screenshot-2.png" alt="NextNote search" class="rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
+        <img src="/screenshot-3.png" alt="NextNote covers" class="rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
+      </div>
+    </section>
+
+    <!-- Pricing -->
     <section id="pricing" class="max-w-6xl mx-auto px-6 py-14">
       <h2 class="text-2xl font-semibold">Pricing</h2>
       <div class="mt-6 grid md:grid-cols-3 gap-6">
         <div class="p-6 rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
           <h3 class="font-semibold">Free</h3>
-          <p class="opacity-80 mt-1">Core features</p>
+          <p class="opacity-80 mt-1">Core note‑taking features</p>
           <p class="mt-4 text-3xl font-bold">$0</p>
         </div>
         <div class="p-6 rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
           <h3 class="font-semibold">Pro</h3>
           <p class="opacity-80 mt-1">AI & advanced tools</p>
           <p class="mt-4 text-3xl font-bold">$3.99<span class="text-base opacity-70">/mo</span></p>
+          <p class="mt-1 opacity-70">or $29.99/year</p>
         </div>
       </div>
     </section>
@@ -124,22 +148,34 @@
       <h2 class="text-2xl font-semibold">FAQ</h2>
       <details class="mt-4 p-4 border rounded-xl">
         <summary class="cursor-pointer font-medium">Is my data private?</summary>
-        <p class="mt-2 opacity-80">Yes. Notes are stored on your device and synced via iCloud if enabled.</p>
+        <p class="mt-2 opacity-80">Yes. NextNote stores your notes securely on your device and syncs via iCloud only if enabled.</p>
       </details>
       <details class="mt-3 p-4 border rounded-xl">
         <summary class="cursor-pointer font-medium">Does it work offline?</summary>
-        <p class="mt-2 opacity-80">Yes. You can create and edit notes offline; sync resumes when online.</p>
+        <p class="mt-2 opacity-80">Yes. You can create and edit notes offline; sync resumes when you're back online.</p>
+      </details>
+      <details class="mt-3 p-4 border rounded-xl">
+        <summary class="cursor-pointer font-medium">What devices are supported?</summary>
+        <p class="mt-2 opacity-80">NextNote works on iPhone and iPad, with a macOS version coming soon.</p>
+      </details>
+      <details class="mt-3 p-4 border rounded-xl">
+        <summary class="cursor-pointer font-medium">Do I need an account?</summary>
+        <p class="mt-2 opacity-80">No account required. Just install the app and start writing.</p>
       </details>
     </section>
 
+    <!-- Footer -->
     <footer class="max-w-6xl mx-auto px-6 py-10 text-sm opacity-80">
       <div class="flex flex-wrap items-center gap-4">
         <a href="/privacy">Privacy</a>
         <a href="/terms">Terms</a>
-        <span>© <span id="y"></span> YOUR_APP_NAME</span>
+        <span>© <span id="y"></span> NextNote</span>
       </div>
     </footer>
   </main>
-  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
