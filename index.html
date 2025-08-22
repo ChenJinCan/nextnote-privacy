@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YOUR_APP_NAME — Fast, Simple, Powerful Notes</title>
+  <meta name="description" content="YOUR_APP_NAME helps you capture ideas fast, stay organized, and find everything instantly." />
+
+  <!-- iOS Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=YOUR_APP_STORE_ID">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="YOUR_APP_NAME — Fast, Simple, Powerful Notes">
+  <meta property="og:description" content="Capture faster. Organize smarter. Find instantly.">
+  <meta property="og:image" content="https://yourdomain.com/og-image.png">
+  <meta property="og:url" content="https://yourdomain.com/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="YOUR_APP_NAME — Fast, Simple, Powerful Notes">
+  <meta name="twitter:description" content="Capture faster. Organize smarter. Find instantly.">
+  <meta name="twitter:image" content="https://yourdomain.com/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.png">
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "YOUR_APP_NAME",
+    "applicationCategory": "ProductivityApplication",
+    "operatingSystem": "iOS",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "128" }
+  }
+  </script>
+  <style>
+    :root { color-scheme: light dark; }
+  </style>
+</head>
+<body class="bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+  <header class="max-w-6xl mx-auto px-6 py-6 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <img src="/icon.png" alt="YOUR_APP_NAME" class="w-8 h-8 rounded-xl">
+      <span class="font-semibold text-lg">YOUR_APP_NAME</span>
+    </div>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="#features" class="opacity-80 hover:opacity-100">Features</a>
+      <a href="#pricing" class="opacity-80 hover:opacity-100">Pricing</a>
+      <a href="#faq" class="opacity-80 hover:opacity-100">FAQ</a>
+      <a href="/privacy" class="opacity-80 hover:opacity-100">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="max-w-6xl mx-auto px-6 pt-10 pb-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          Capture faster. Organize smarter. <span class="text-blue-600">Write effortlessly.</span>
+        </h1>
+        <p class="mt-4 text-lg opacity-80">
+          YOUR_APP_NAME is a clean, powerful notes app with dynamic covers, AI suggestions, and lightning-fast search.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://apps.apple.com/app/idYOUR_APP_STORE_ID"
+             class="inline-flex items-center rounded-xl px-4 py-3 bg-black text-white dark:bg-white dark:text-black font-medium">
+             Download on the App Store
+          </a>
+          <a href="#features" class="inline-flex items-center rounded-xl px-4 py-3 border border-neutral-300/60 dark:border-neutral-700/60">
+            See features
+          </a>
+        </div>
+        <p class="mt-3 text-sm opacity-70">iOS • iCloud Sync • Privacy-first</p>
+      </div>
+      <div class="rounded-2xl overflow-hidden shadow-2xl">
+        <img src="/screenshot-hero.png" alt="App screenshot" class="w-full h-auto">
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-neutral-50 dark:bg-neutral-900/40 py-14">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">Dynamic Covers & Emoji</h3>
+          <p class="mt-2 opacity-80">Make your notes expressive with custom covers and emojis.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">Smart Editing</h3>
+          <p class="mt-2 opacity-80">AI suggestions to summarize, expand, and refine your writing.</p>
+        </div>
+        <div class="p-6 rounded-2xl bg-white/70 dark:bg-neutral-900/60 border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold text-lg">Blazing Search</h3>
+          <p class="mt-2 opacity-80">Find anything instantly with tags and full-text search.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing (可选) -->
+    <section id="pricing" class="max-w-6xl mx-auto px-6 py-14">
+      <h2 class="text-2xl font-semibold">Pricing</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold">Free</h3>
+          <p class="opacity-80 mt-1">Core features</p>
+          <p class="mt-4 text-3xl font-bold">$0</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-neutral-200/60 dark:border-neutral-800/60">
+          <h3 class="font-semibold">Pro</h3>
+          <p class="opacity-80 mt-1">AI & advanced tools</p>
+          <p class="mt-4 text-3xl font-bold">$3.99<span class="text-base opacity-70">/mo</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="max-w-3xl mx-auto px-6 py-14">
+      <h2 class="text-2xl font-semibold">FAQ</h2>
+      <details class="mt-4 p-4 border rounded-xl">
+        <summary class="cursor-pointer font-medium">Is my data private?</summary>
+        <p class="mt-2 opacity-80">Yes. Notes are stored on your device and synced via iCloud if enabled.</p>
+      </details>
+      <details class="mt-3 p-4 border rounded-xl">
+        <summary class="cursor-pointer font-medium">Does it work offline?</summary>
+        <p class="mt-2 opacity-80">Yes. You can create and edit notes offline; sync resumes when online.</p>
+      </details>
+    </section>
+
+    <footer class="max-w-6xl mx-auto px-6 py-10 text-sm opacity-80">
+      <div class="flex flex-wrap items-center gap-4">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <span>© <span id="y"></span> YOUR_APP_NAME</span>
+      </div>
+    </footer>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
